@@ -7,7 +7,7 @@ using System.Web.Mvc;
 using Infrastructure.DbModel;
 using Infrastructure.ViewModels;
 using SyntacticSugar;
-using SqlSugar;
+using MySqlSugar;
 using Infrastructure.Pub;
 using Infrastructure.ViewModels.BBS;
 

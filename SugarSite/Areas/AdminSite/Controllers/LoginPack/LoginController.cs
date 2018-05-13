@@ -1,7 +1,7 @@
 ﻿using Infrastructure.Dao;
 using Infrastructure.Pub;
 using Infrastructure.ViewModels;
-using SqlSugar;
+using MySqlSugar;
 using SugarSite.Controllers;
 using System;
 using System.Collections.Generic;

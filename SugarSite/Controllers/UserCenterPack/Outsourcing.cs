@@ -9,7 +9,7 @@ using SyntacticSugar;
 using System.Net;
 using System.Drawing.Imaging;
 using System.IO;
-using SqlSugar;
+using MySqlSugar;
 
 namespace SugarSite.Controllers
 {

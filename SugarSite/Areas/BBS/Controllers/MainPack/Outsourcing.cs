@@ -1,6 +1,6 @@
 ﻿using Infrastructure.DbModel;
 using Infrastructure.Pub;
-using SqlSugar;
+using MySqlSugar;
 using SyntacticSugar;
 using System;
 using System.Collections.Generic;

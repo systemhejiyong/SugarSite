@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using Infrastructure.DbModel;
-using SqlSugar;
+using MySqlSugar;
 
 namespace SugarSite.Controllers
 {

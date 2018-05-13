@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.9.12.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.6.9.12\lib\net45\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySqlSugar, Version=3.5.3.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\mySqlSugar.3.5.3.4\lib\net40\MySqlSugar.dll</HintPath>
+    </Reference>
     <Reference Include="RestSharp, Version=105.2.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\RestSharp.105.2.3\lib\net46\RestSharp.dll</HintPath>
       <Private>True</Private>
@@ -104,6 +110,7 @@
     <Compile Include="ViewModels\Views\V_VisitorList.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
@@ -111,6 +118,8 @@
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>1_T4.cs</LastGenOutput>
     </Content>
+    <Content Include="lib\MySql.Data.dll" />
+    <Content Include="lib\MySqlSugar.dll" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
